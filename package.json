@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "svg": "npx @svgr/cli --typescript --out-dir src/components/vectors -- public/assets/vectors"
   },
   "dependencies": {
     "react": "^18",
