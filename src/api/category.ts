@@ -1,6 +1,13 @@
 export type category = {
   id: number,
   name: string,
+  description: string,
+  items: categoryItem[]
+}
+
+export type categoryItem = {
+  id: number,
+  itemName: string,
   description: string
 }
 

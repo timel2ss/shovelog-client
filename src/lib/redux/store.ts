@@ -1,10 +1,13 @@
 "use client"
 
 import { configureStore } from "@reduxjs/toolkit"
+import categoryReducer from "@/lib/redux/features/category/categorySlice"
 
 export const makeStore = () => {
   return configureStore({
-    reducer: {}
+    reducer: {
+      category: categoryReducer
+    }
   })
 }
 
